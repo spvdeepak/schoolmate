@@ -1,0 +1,14 @@
+{
+    "users": [
+      {
+        "schoolId": "SId1",
+        "password": "PId1"
+      },
+      {
+        "schoolId": "SId2",
+        "password": "PId2"
+      }
+   
+    ]
+  }
+  

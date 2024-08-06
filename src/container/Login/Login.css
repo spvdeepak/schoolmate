@@ -1,0 +1,50 @@
+/* Reset body and HTML margins and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Background styling with a semicircle */
+.login-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Change height to min-height */
+  background: whitesmoke;
+  position: relative;
+  overflow: hidden; /* Hide any potential overflow */
+}
+
+
+/* Advanced CSS for the login content */
+.login-content {
+  width: 400px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly increased transparency */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow for depth */
+  border-radius: 12px; /* Increased border-radius for smoother corners */
+  overflow: hidden; /* Hide any potential overflow */
+}
+
+/* Advanced CSS for the login title */
+.login-title {
+  text-align: center;
+  color: #764ba2; /* Purple color for the title */
+  margin-bottom: 24px; /* Added margin for spacing below title */
+}
+
+/* Advanced CSS for the login button */
+.login-button {
+  width: 100%;
+  background-color: #764ba2; /* Purple color for the button */
+  border-color: #764ba2;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-layout-content {
+  flex: none;
+  min-height: 0;
+}
+
+

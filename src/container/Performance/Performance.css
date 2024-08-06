@@ -1,0 +1,52 @@
+.custom-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .custom-avatar {
+    background-color: #f56a00;
+  }
+  
+  .card-content {
+    padding: 0 16px;
+    flex-grow: 1; /* Allow content to grow */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds */
+  }
+  
+  .card-text {
+    margin-bottom: 8px;
+  }
+  
+  .text-label {
+    font-weight: bold;
+  }
+  
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .progress-container {
+    margin-top: 16px;
+  }
+  
+  .progress-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
